@@ -8,7 +8,7 @@ const app = express();
 
 // CORS
 app.use(cors({
- origin: "https://poetic-daifuku-04743c.netlify.app",   
+ origin: "https://wonderful-mandazi-7d0b77.netlify.app",   
   methods: ["GET", "POST"]
 }));
 
@@ -17,7 +17,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-     origin: "https://poetic-daifuku-04743c.netlify.app",
+     origin: "https://wonderful-mandazi-7d0b77.netlify.app/",
     methods: ["GET", "POST"]
   }
 });
